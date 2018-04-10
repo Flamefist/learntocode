@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="NAVY Guns">
+    <meta name="author" content="SEgorov">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Workshop issues</title>
+
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="apple-touch-icon" href="">
+
+<!--    <link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+       <!-- Link to your css file -->
+       <link rel="stylesheet" href="../css/main.css">
+
+</head>
+
+<body>
+    <div class="main-head"><h1>NAVY GUNS</h1></div>
+   <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Disabled</a>
+  </li>
+</ul>
+    </div>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+       <li class="nav-item">
+           <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">В работе</a>
+       </li>
+       <li class="nav-item">
+           <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Выполнено</a>
+       </li>
+       <li class="nav-item">
+           <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Выдано</a>
+       </li>
+   </ul>
+   <div class="tab-content" id="myTabContent">
+       <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Название</th>
+                <th>Описание</th>
+                <th>Прогресс</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>АК-74 CYMA</td>
+                <td>ТО, замена шестерней</td>
+                <td class="badge badge-danger">Danger</td>
+            </tr>
+        </tbody>
+    </table>
+       </div>
+       <div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+       <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+       </div>
+       </div>
+       <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">           <!-- Insert content here -->       </div>
+   </div>
+    <!-- do not forget download jquery (http://jquery.com/download/)-->
+   <script src="js/jquery-3.2.1.min.js"></script>
+   <!-- do not forget download popper.js (https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js) -->
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

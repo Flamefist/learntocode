@@ -1,0 +1,73 @@
+/*
+ CSS Document 
+
+html {
+	background-color: rgb(255, 255, 255);
+	font-family: "Gotham", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+
+body {
+    padding: 15px;
+    margin: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    background-color: #c9c9c9c9;
+	font-family: "Roboto", "Roboto Black", "Roboto Slab", "Roboto Thin";
+	
+}
+
+p {
+	font-size: 1.2em;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #c9c9c9c9;
+    position: inherit;
+}
+
+.nav-link {
+    color: #003eaf;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    background-color: #FFFFFF;
+}
+
+.nav-link:hover {
+    background-color: #ffffff;
+}
+*/
+.table th, .table td {
+    vertical-align: initial;
+}
+
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-head {
+    position: static;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.nav {
+    display: static;
+    background-color: #fff;
+    color: #007bff;
+}
+
+.nav-link:active, .nav-link:hover{
+    color: #ffffff;
+    background-color: #007bff;
+}
